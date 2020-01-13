@@ -11,9 +11,14 @@ signInButton.addEventListener('click', () =>{
 });
 
 document.getElementById('loginBtn').addEventListener('click', ()=>{
-	alert("Login button works!");
+	if(document.getElementById('email1').value.length == 0) alert("email empty!");
+	else if(document.getElementById('password1').value.length == 0) alert("password empty!");
+	else alert("email: " + document.getElementById('email1').value + "\n password: " + document.getElementById('password1').value);
 });
 
 document.getElementById('createBtn').addEventListener('click', ()=>{
-	alert("Create Profile button works!");
+	if(document.getElementById('name').value.length == 0) alert("name empty!");
+	else if(document.getElementById('email2').value.length == 0) alert("email empty!");
+	else if(document.getElementById('password2').value.length == 0) alert("password empty!");
+	else alert("name: \n" + document.getElementById('email2').value + "email: \n" + document.getElementById('email2').value + "\n password: " + document.getElementById('password2').value);
 });
