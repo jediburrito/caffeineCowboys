@@ -5,7 +5,8 @@
 }
 
 body {
-	background: #f6f5f7;
+	background: #FEFEFD;
+	background-image: url("ucf4.jpg");
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -45,8 +46,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	border: 1px solid #070707;
+	background-color: #070707;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -70,7 +71,7 @@ button.ghost {
 }
 
 form {
-	background-color: #FFFFFF;
+	background-color: #FFCB00;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -89,7 +90,7 @@ input {
 }
 
 .container {
-	background-color: #fff;
+	background-color: #FFC100;
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
@@ -159,9 +160,7 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: #050505;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -208,21 +207,6 @@ input {
 
 .container.right-panel-active .overlay-right {
 	transform: translateX(20%);
-}
-
-.social-container {
-	margin: 20px 0;
-}
-
-.social-container a {
-	border: 1px solid #DDDDDD;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
 }
 
 footer {
